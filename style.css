@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 5vh 0 0 5vw;
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 700px;
+    grid-template-rows: auto;
+}
+.content {
+    border-bottom: 1px solid black;
+}
+
+h2{
+    font-family: 'Roboto';
+}
+
+h3{
+    font-family: 'Roboto';
+}
+
+p{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    width: 41px;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+
+a:hover {
+    color: rgb(214, 214, 214);
+}
